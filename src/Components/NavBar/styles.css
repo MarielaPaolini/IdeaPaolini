@@ -4,27 +4,53 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 75px;
+    height: 90px;
     background-color: gray;
 }
 
 ul{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     list-style-type: none;
 }
 
 li{
     margin-left: 10px;
     margin-right: 10px;
+    font-size: large;
 }
 
 button {
     margin-right: 25px;
-    background-color: aqua;
+    background-color:darkslategray;
     color: black;
 }
 
-a{
-    color:aqua;
+a{   
+    color:darkslategray;
+    text-decoration-line: none;
+}
+
+.carritoCompras{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkslategray;
+    border-radius: 5px;
+
+}
+
+.itemListContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+.logoEmpresa{
+    height: 105px;
+    width: 150px;
 }

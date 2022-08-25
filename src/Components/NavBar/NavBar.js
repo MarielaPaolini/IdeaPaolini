@@ -1,10 +1,16 @@
-import logo from '../../logo.svg';
+import logo from '../../Components/ImagenesMuseo/logo.png';
 import './styles.css'
+import CarritoNavBar from '../CartWidget';
+import React from 'react'
+
 const NavBar = () => {
     return (
         <div className='navbar-container'>
             <div>
-                <img width={'100px'} src={logo} alt="logo"/>
+                <img className='logoEmpresa' width={'100px'} src={logo} alt="logo"/>
+            </div>
+            <div>
+                <CarritoNavBar />
             </div>
             <div>
                 <ul>
@@ -20,7 +26,7 @@ const NavBar = () => {
                 </ul>
             </div>
             <div>
-                <button>Login</button>
+                <button type="button" class="btn btn-secondary">Regístrate</button>
             </div>
         </div>
     )
