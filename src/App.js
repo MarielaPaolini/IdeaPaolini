@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './Components/NavBar/NavBar';
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
 import ItemCount from './Components/ItemCount/ItemCount';
+import Container from 'react-bootstrap/Container';
 
 const onAdd = (cantidad) =>{
   console.log(`Compraste ${cantidad} unidades`);
@@ -10,16 +11,17 @@ const onAdd = (cantidad) =>{
 
 function App() {
   return (
+    <Container fluid>
     <div className="App">
      <NavBar />
-     <div className='itemListContainer'>
+     <div>
         <h3><ItemListContainer greeting='Bienvenidos al Museo del Vino Mendoza'/></h3>
      </div>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      <ItemCount initial={1} stock={10} onAdd={onAdd}/>
+        <ItemCount initial={1} stock={10} onAdd={onAdd}/>
       </header>
     </div>
+    </Container>
   );
 }
 
