@@ -1,29 +1,42 @@
 import logo from '../../Components/ImagenesMuseo/logo.png';
 import './styles.css'
-import CarritoNavBar from '../CartWidget';
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import CartButton from '../CartButton';
 
 const NavBar = () => {
     return (
         <div className='navbar-container'>
             <div>
-                <img className='logoEmpresa' width={'100px'} src={logo} alt="logo"/>
+                <NavLink to="/">
+                    <img className='logoEmpresa' width={'100px'} src={logo} alt="logo"/>
+                </NavLink>
             </div>
             <div>
-                <CarritoNavBar />
+               <NavLink to="/carrito">
+                    <CartButton />
+                </NavLink>
             </div>
             <div>
-                <ul>
-                    <li>
-                        <a href=''>Inicio</a>
-                    </li>
-                    <li>
-                        <a href=''>Nosotros</a>
-                    </li>
-                    <li>
-                        <a href=''>Contacto</a>
-                    </li>
-                </ul>
+                <nav>
+                    <ul>
+                        <li>
+                            <NavLink to="/">Inicio</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="categoria/producto">Productos</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/contacto">Contacto</NavLink> 
+                        </li>
+                        <li>
+                            <NavLink to="/contador">Contador</NavLink> 
+                        </li>
+                        <li>
+                            <NavLink to="/detalle">Detalle</NavLink> 
+                        </li>
+                    </ul>
+                </nav>
             </div>
             <div>
                 <button type="button" class="btn btn-secondary">Regístrate</button>

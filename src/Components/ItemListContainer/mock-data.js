@@ -6,7 +6,8 @@ const data = [
         vino:"TOMERO",
         precio: "$2890",
         stock: 5,
-        imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg'
+        imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
+        categoria: "producto"
     },
     {
         id:2,
@@ -15,7 +16,8 @@ const data = [
         vino:"DECERO",
         precio: "$3690",
         stock: 8,
-        imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg'
+        imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
+        categoria: "producto"
     },
     {
         id:3,
@@ -24,7 +26,8 @@ const data = [
         vino:"ALTAVISTA PREMIUM",
         precio: "$2890",
         stock: 6,
-        imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg'
+        imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
+        categoria: "producto"
     },
     {
         id:4,
@@ -33,7 +36,8 @@ const data = [
         vino:"TOMERO WINES",
         precio: "$3790",
         stock: 12,
-        imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg'
+        imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
+        categoria: "producto"
     },
     {
         id:5,
@@ -42,7 +46,8 @@ const data = [
         vino:"DECERO RESERVA",
         precio: "$4990",
         stock: 9,
-        imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg'
+        imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
+        categoria: "producto"
     },
     {
         id:6,
@@ -51,7 +56,8 @@ const data = [
         vino:"GRAN RESERVA",
         precio: "$6790",
         stock: 15,
-        imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg'
+        imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
+        categoria: "producto"
     },
     {
         id:7,
@@ -60,7 +66,8 @@ const data = [
         vino:"MONTEAGRELLO",
         precio: "$5990",
         stock: 2,
-        imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg'
+        imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
+        categoria: "producto"
     },
     {
         id:8,
@@ -69,7 +76,8 @@ const data = [
         vino:"LOS PASOS RESERVA",
         precio: "$2790",
         stock: 20,
-        imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg'
+        imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
+        categoria: "producto"
     },
     {
         id:9,
@@ -78,7 +86,8 @@ const data = [
         vino:"ANDELUNA PREMIUM",
         precio: "$3290",
         stock: 12,
-        imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg'
+        imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
+        categoria: "producto"
     }
 ];
 

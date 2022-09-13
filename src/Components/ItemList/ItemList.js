@@ -6,7 +6,7 @@ const ItemList = ({ItemList}) => {
         {ItemList.map((producto) => {
             return (
             <Item 
-                key={producto.id}
+                id={producto.id}
                 vino={producto.vino} 
                 bodega={producto.bodega}
                 varietal={producto.varietal}
