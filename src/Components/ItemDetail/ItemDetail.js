@@ -4,14 +4,17 @@ import Row from 'react-bootstrap/Row';
 import { Link } from "react-router-dom";
 import ItemCount from "../ItemCount/ItemCount";
 import { useState } from "react";
+import { useCartContext } from "../Context/CartContext";
 
 
 const ItemDetail = ({dato}) => {
 
   const [ cart, setCart ] = useState(false);
+  const {addProduct} = useCartContext();
 
   const onAdd = (cantidad) =>{
     setCart(true);
+    addProduct(dato, cantidad);
   }
   
 

@@ -7,7 +7,7 @@ const data = [
         precio: "$2890",
         stock: 5,
         imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
-        categoria: "producto"
+        categoria: "tinto"
     },
     {
         id:2,
@@ -17,7 +17,7 @@ const data = [
         precio: "$3690",
         stock: 8,
         imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
-        categoria: "producto"
+        categoria: "tinto"
     },
     {
         id:3,
@@ -27,7 +27,7 @@ const data = [
         precio: "$2890",
         stock: 6,
         imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
-        categoria: "producto"
+        categoria: "tinto"
     },
     {
         id:4,
@@ -37,7 +37,7 @@ const data = [
         precio: "$3790",
         stock: 12,
         imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
-        categoria: "producto"
+        categoria: "blanco"
     },
     {
         id:5,
@@ -47,7 +47,7 @@ const data = [
         precio: "$4990",
         stock: 9,
         imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
-        categoria: "producto"
+        categoria: "blanco"
     },
     {
         id:6,
@@ -57,7 +57,7 @@ const data = [
         precio: "$6790",
         stock: 15,
         imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
-        categoria: "producto"
+        categoria: "tinto"
     },
     {
         id:7,
@@ -67,7 +67,7 @@ const data = [
         precio: "$5990",
         stock: 2,
         imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
-        categoria: "producto"
+        categoria: "tinto"
     },
     {
         id:8,
@@ -77,7 +77,7 @@ const data = [
         precio: "$2790",
         stock: 20,
         imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
-        categoria: "producto"
+        categoria: "tinto"
     },
     {
         id:9,
@@ -87,7 +87,7 @@ const data = [
         precio: "$3290",
         stock: 12,
         imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
-        categoria: "producto"
+        categoria: "blanco"
     }
 ];
 

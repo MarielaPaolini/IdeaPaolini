@@ -24,10 +24,10 @@ const NavBar = () => {
                             <NavLink to="/">Inicio</NavLink>
                         </li>
                         <li>
-                            <NavLink to="categoria/producto">Productos</NavLink>
+                            <NavLink to="categoria/tinto">Tintos</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/contacto">Contacto</NavLink> 
+                            <NavLink to="categoria/blanco">Blancos</NavLink> 
                         </li>
                         <li>
                             <NavLink to="/detalle">Detalle</NavLink> 
