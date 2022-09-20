@@ -1,42 +1,50 @@
-import React, { useState, useContext } from 'react';
-export const useCartContext = () => useContext(CartContext);
+import React from 'react';
+import { useState } from 'react';
 
-const CartContext = React.createContext([]);
+export const CartContext = React.createContext();
 
-const CartProvider = ({ children}) => {
-    const [cart, setCart] = useState([]);
 
-    console.log('carrito ', cart);
+export const CartProvider = ({children}) => {
+    const [productCartList, setProductCartList] = useState([]);
 
-    // const addProduct = (item, nuevaCantidad) => {
-    //     const newCart = cart.filter(prod => prod.id !== item.id);
-    //     newCart.push({...item, cantidad: nuevaCantidad});
-    //     setCart(newCart);
-    // }
-
-    const addProduct = (Item, nuevaCantidad) => {
-        const {cantidad = 0} = cart.find(prod => prod.id === Item.id) || {};
-        const newCart = cart.filter(prod => prod.id !== Item.id);
-        setCart([...newCart, {...Item, cantidad: cantidad + nuevaCantidad}]);
+    const isInCart = (productId) => {
+        const productExist = productCartList.some(item => item.id === productId);
+        return productExist;
     }
 
-    const clearCart = () => setCart([]);
+    const addItem = (item, cantidad) => {
+        console.log("item", item, "cantidad", cantidad)
+        const newProduct = {
+            ...item,
+            cantidad 
+        }
+        console.log("newProduct", newProduct)
+            
+            if(isInCart(item.id)){
+                const productPos = productCartList.findIndex(product => product.id === item.id);
+                const newArreglo = [...productCartList];
+                newArreglo[productPos].cantidad = newArreglo[productPos].cantidad + cantidad;
+                setProductCartList(newArreglo); 
+            } else {
+                const newArreglo = [...productCartList];
+                newArreglo.push(newProduct);
+                setProductCartList(newArreglo);
+            }
+    }
 
-    const inCart = (id) => cart.find(product => product.id === id) ? true : false;
+    const removeItem = (itemId) => {
+        console.log("itemId", itemId)
+        const newArreglo = productCartList.filter(product => product.id !== itemId);
+        setProductCartList(newArreglo);
+    }
 
-    const removeProduct = (id) => setCart(cart.filter(product => product.id !== id));
+    const clear = () => {
+        setProductCartList([]);
+    }
 
-
-  return (
-    <CartContext.Provider value={{
-        clearCart,
-        inCart,
-        removeProduct,
-        addProduct,
-    }}>
-    {children}
-    </CartContext.Provider>
-  )
+     return(
+        <CartContext.Provider value={{productCartList, addItem, removeItem, clear}}>
+            {children}
+        </CartContext.Provider>
+    )
 }
-
-export default CartProvider;
