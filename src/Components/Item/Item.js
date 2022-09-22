@@ -10,27 +10,26 @@ const Item = ({id, varietal, bodega, vino, precio, imagen, stock}) => {
   return (
    
     <Row xs={1} md={2} className="g-4"> 
-    
-      {Array.from({ length: 2 }).map((_, idx) => (
-          <Col>
-          <Card>
-            <Card.Img variant="top" src={imagen} />
-              <Card.Body>
-                <Card.Title><h2>{vino}</h2></Card.Title>
-                <Card.Text>
-                    <h3>{bodega}</h3>
-                    <p>{varietal}</p>
-                    <p>{precio}</p>
-                </Card.Text> 
-                  <Link to={`/detalle/${id}`}>
-                    <Button variant="secondary">Ver Producto</Button>   
-                  </Link>
-              </Card.Body> 
-            </Card>
-          </Col>
-        ))} 
+    {Array.from({ length: 2 }).map((_, idx) => (
+      <Col>
+        <Card>
+        <Card.Img variant="top" src={imagen} />
+        <Card.Body>
+        <Card.Title><h2>{vino}</h2></Card.Title>
+        <Card.Text>
+          <h3>{bodega}</h3>
+          <p>{varietal}</p>
+          <p>${precio}</p>
+        </Card.Text> 
+          <Link to={`/detalle/${id}`}>
+            <Button variant="secondary">Ver Producto</Button>   
+          </Link>
+        </Card.Body> 
+        </Card>
+      </Col>
+    ))} 
        
-    </Row>
+  </Row>
    
   );
 }

@@ -16,6 +16,7 @@ const getData = new Promise(resolve => {
     setTimeout(() => {
         resolve(producto);
     }, 2000);
+    
 });
     
     getData.then(res => setDato(res.find(producto => producto.id === parseInt(detalleId))));

@@ -4,7 +4,7 @@ const data = [
         varietal: "MALBEC", 
         bodega:"BODEGA VISTALBA", 
         vino:"TOMERO",
-        precio: "$2890",
+        precio: 2890,
         stock: 5,
         imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
         categoria: "tinto"
@@ -14,7 +14,7 @@ const data = [
         varietal: "CABERNET FRANC", 
         bodega:"FINCA DECERO", 
         vino:"DECERO",
-        precio: "$3690",
+        precio: 3690,
         stock: 8,
         imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
         categoria: "tinto"
@@ -24,7 +24,7 @@ const data = [
         varietal: "CABERNET SAUVIGNON", 
         bodega:"BODEGA ALTAVISTA", 
         vino:"ALTAVISTA PREMIUM",
-        precio: "$2890",
+        precio: 2890,
         stock: 6,
         imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
         categoria: "tinto"
@@ -34,7 +34,7 @@ const data = [
         varietal: "SYRAH", 
         bodega:"BODEGA VISTALBA", 
         vino:"TOMERO WINES",
-        precio: "$3790",
+        precio: 3790,
         stock: 12,
         imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
         categoria: "blanco"
@@ -44,7 +44,7 @@ const data = [
         varietal: "MERLOT", 
         bodega:"FINCA DECERO", 
         vino:"DECERO RESERVA",
-        precio: "$4990",
+        precio: 4990,
         stock: 9,
         imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
         categoria: "blanco"
@@ -54,7 +54,7 @@ const data = [
         varietal: "MALBEC", 
         bodega:"FINCA DECERO", 
         vino:"GRAN RESERVA",
-        precio: "$6790",
+        precio: 6790,
         stock: 15,
         imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
         categoria: "tinto"
@@ -64,7 +64,7 @@ const data = [
         varietal: "CABERNET FRANC", 
         bodega:"FINCA MONTEAGRELLO", 
         vino:"MONTEAGRELLO",
-        precio: "$5990",
+        precio: 5990,
         stock: 2,
         imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
         categoria: "tinto"
@@ -74,7 +74,7 @@ const data = [
         varietal: "MALBEC", 
         bodega:"BODEGA SEPTIMA", 
         vino:"LOS PASOS RESERVA",
-        precio: "$2790",
+        precio: 2790,
         stock: 20,
         imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
         categoria: "tinto"
@@ -84,7 +84,7 @@ const data = [
         varietal: "MERLOT", 
         bodega:"BODEGA ANDELUNA", 
         vino:"ANDELUNA PREMIUM",
-        precio: "$3290",
+        precio: 3290,
         stock: 12,
         imagen: 'https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg',
         categoria: "blanco"
