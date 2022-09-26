@@ -29,9 +29,6 @@ const NavBar = () => {
                         <li>
                             <NavLink to="categoria/blanco">Blancos</NavLink> 
                         </li>
-                        <li>
-                            <NavLink to="/detalle">Detalle</NavLink> 
-                        </li>
                     </ul>
                 </nav>
             </div>
