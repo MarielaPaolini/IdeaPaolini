@@ -8,6 +8,7 @@ export const CartProvider = ({children}) => {
     
 const [productCartList, setProductCartList] = useState([]);
 
+
 const isInCart = (productId) => {
 
 const productExist = productCartList.some(item => item.id === productId);
@@ -51,7 +52,9 @@ const getTotalPrice = () => {
 const getTotalProducts = () => {
     const totalProducts = productCartList.reduce((acc, item) => acc + item.cantidad, 0);
     return totalProducts;
+
 }
+
 
     return(
         <CartContext.Provider value={{productCartList, addItem, removeItem, clear, getTotalPrice, getTotalProducts}}>
