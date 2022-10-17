@@ -78,7 +78,7 @@ return (
       <>         
           <p>El Carrito está vacío</p>
           <Link to="/">
-           <p>Agregar Producto</p>
+           <Button>Agregar Producto</Button>
           </Link>
       </>
      }

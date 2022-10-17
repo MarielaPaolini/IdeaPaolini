@@ -1,46 +1,46 @@
-Museo del Vino Mendoza
+# MUSEO DEL VINO
 
-En esta página podrás encontrar todo el contenido y la info disponible para brindarte la mejor de las experiencias. 
+## Descripción
 
-Comenzando 🚀
+`Proyecto Final` para el curso de ReactJS de la academia `Coder House` (2022).
+La aplicación permite conectarse con un backend realizdo con `Firebase`.
+Permite seleccionar ciertos productos, navegar a sus detalles, agregarlos al carrito, poder acceder a él, simular la compra de los productos.
+Al clickear sobre el botón "finalizar compra", pide llenar un formulario con datos básicos y luego de confirmar
+se genera un id de orden para el usuario y en firebase se guarda la orden con los productos que compró.
 
-Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
+*Tecnologías y librerías:*
 
-Mira Deployment para conocer como desplegar el proyecto.
+- Interfaz realizada con *ReactJS - Create React App*
+- Estilos con *Bootstrap*
+- Ruteo con *React Router Dom*
+- Backend con *Firebase*
 
-Pre-requisitos 📋
+## Descargar y correr el proyecto
 
-Que cosas necesitas para instalar el software y como instalarlas
+Una vez clonado o descargado el proyecto, instalar dependencias:
 
+### `npm install`
 
-Instalación 🔧
+Correr el servidor:
 
-Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose
+### `npm start`
 
+Se abre una pestaña del navegador en el puerto 3000:
 
-Ejecutando las pruebas ⚙️
+### Sino copiar esta URL y pegarla en el navegador: `http://localhost:3000`
 
-Explica como ejecutar las pruebas automatizadas para este sistema
+## Backend
 
+Recordar que tiene un backend realizado con Firebase, por si quieren descargar y correr este proyecto, tienen que generar su backend en firebase sino local con data fake.
 
-Construido con 🛠️
+## Estructura
 
-Menciona las herramientas que utilizaste para crear tu proyecto
+![estructura](https://firebasestorage.googleapis.com/v0/b/ecommercemdv-ae19f.appspot.com/o/ESTRUCTURA.png?alt=media&token=1e8a003b-595a-4135-85e3-cfddd8c69f7f)
 
-Dropwizard - El framework web usado
-Maven - Manejador de dependencias
-ROME - Usado para generar RSS
-Contribuyendo 🖇️
-Por favor lee el CONTRIBUTING.md para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+## ScreenShots
 
-Versionado 📌
+![image00](https://firebasestorage.googleapis.com/v0/b/ecommercemdv-ae19f.appspot.com/o/detalleProducto.png?alt=media&token=6b59ad8f-cf08-47b7-85ed-e721c6dad052)
+![image01](https://firebasestorage.googleapis.com/v0/b/ecommercemdv-ae19f.appspot.com/o/comprando.png?alt=media&token=2c4a8c68-1c69-4953-9ff1-0694f2577034)
+![image02](https://firebasestorage.googleapis.com/v0/b/ecommercemdv-ae19f.appspot.com/o/orden.png?alt=media&token=be102f06-8659-48dc-a073-b41a2bfcbd9a)
 
-Usamos SemVer para el versionado. Para todas las versiones disponibles, mira los tags en este repositorio.
-
-Autores ✒️
-Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
-
-También puedes mirar la lista de todos los contribuyentes quíenes han participado en este proyecto.
-
-Licencia 📄
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo LICENSE.md para detalles
+## VIDEO
