@@ -44,3 +44,8 @@ Recordar que tiene un backend realizado con Firebase, por si quieren descargar y
 ![image02](https://firebasestorage.googleapis.com/v0/b/ecommercemdv-ae19f.appspot.com/o/orden.png?alt=media&token=be102f06-8659-48dc-a073-b41a2bfcbd9a)
 
 ## VIDEO
+### Funcionamiento página
+(https://youtu.be/AxC9ha5qXGI)
+
+### Firebase
+(https://www.youtube.com/watch?v=nVcUpWrVyOI)
